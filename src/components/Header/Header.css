@@ -1,0 +1,46 @@
+.header{
+    height: 35vw;
+    min-height: 200px;
+    margin: 30px auto;
+    background: url('/header_img.png') no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.header-content{
+    position: absolute;
+    bottom: 10%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+}
+
+.header-content h2{
+    font-weight: 500;
+    color: white;
+    font-size: max(4.5vw,22px);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.header-content p{
+    color: white;
+    font-size: 1vw;
+}
+
+.header-content button{
+    border: none;
+    color: #747474;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color: white;
+    font-size: max(1vw,13px);
+    border-radius: 50px;
+    width: auto;  /* Let the button width adjust based on the text */
+    height: auto;  /* Let the button height adjust based on the text */
+    display: inline-block;  /* Makes the button adjust to the content width */
+    text-align: center;  /* Ensures the text inside the button is centered */
+    cursor: pointer;  /* Shows a pointer cursor on hover */
+}
+
